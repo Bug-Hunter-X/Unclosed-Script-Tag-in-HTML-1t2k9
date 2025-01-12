@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Missing closing tag for the script element causes error
+    document.getElementById("myDiv").innerHTML = "Hello, world!";
+  </script>
+</body>
+</html>
